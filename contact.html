@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MVM - Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top navbar-gradient-bg">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5">
+            <a href="index.html" class="navbar-brand">
+                <!-- Si tu logo es oscuro, podrías necesitar una versión blanca -->
+                <img src="img/mvm-removebg-preview.png" alt="logo" style="width: 120px;">
+            </a>
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="service.html" class="nav-item nav-link">Servicios</a>
+                    <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                    <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- Navbar End -->
+
+
+   <!-- Aquí iría el mapa y los datos de contacto -->
+   <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Mapa a la izquierda -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="h-100">
+                        <h2 class="display-6 mb-4" style="color: #223983;">Nuestra Ubicación</h2>
+                        <div class="map-container rounded" style="height: 500px; overflow: hidden;">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.042207808603!2d-70.5467644233344!3d-33.4180645926839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf1f83c2eb47%3A0xbad2f31f8fd3f14e!2sCerro%20El%20Plomo%205931%2C%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana%2C%20Chile!5e0!3m2!1ses-419!2scl!4v1700000000000!5m2!1ses-419!2scl" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Datos de contacto a la derecha -->
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h2 class="display-6 mb-4" style="color: #223983;">Contáctanos</h2>
+                        <p class="mb-5" style="font-size: 1.1rem;">
+                            Estamos aquí para ayudarte. Ponte en contacto con nosotros para cualquier consulta o solicitud de servicio.
+                        </p>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
+                                style="width: 60px; height: 60px; background-color: #223983;">
+                                <i class="fa fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-2">Dirección</h5>
+                                <p class="mb-0">Cerro El Plomo 5931, Of. 1402<br>Las Condes, Santiago</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
+                                style="width: 60px; height: 60px; background-color: #223983;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-2">Teléfono</h5>
+                                <p class="mb-0">(+56) 984 18 31 74</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
+                                style="width: 60px; height: 60px; background-color: #223983;">
+                                <i class="fa fa-envelope text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-2">Email</h5>
+                                <p class="mb-0">ventas@mvmsolutions.cl</p>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex mb-4">
+                            <div class="flex-shrink-0 d-flex align-items-center justify-content-center rounded-circle"
+                                style="width: 60px; height: 60px; background-color: #223983;">
+                                <i class="fa fa-clock text-white"></i>
+                            </div>
+                            <div class="ms-4">
+                                <h5 class="mb-2">Horario de Atención</h5>
+                                <p class="mb-0">Lunes - Viernes: 9:00 - 18:00 hrs<br>Sábado: 10:00 - 14:00 hrs</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End --> 
+    <!-- Contact End -->
+
+
+    
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-white-50 footer" style="background-color: #223983;">
+        <div class="container py-4">
+            <div class="row g-5">
+
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4" style="font-family: Arial, Helvetica , sans-serif;">Contacto</h5>
+                    <p><i class="fa-solid fa-location-dot me-3"></i>Cerro El Plomo 5931 Of. 1402, Las Condes, Región Metropolitana, Chile.</p>
+                    <p><i class="fa-solid fa-phone me-3"></i>(+56) 984 18 31 74</p>
+                    <p><i class="fa-solid fa-envelope me-3"></i>ventas@mvmsolutions.cl</p>
+
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="1s">
+                    <h5 class="text-white mb-4" style="font-family: Arial, Helvetica" , sans-serif;>Enlaces populares
+                    </h5>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>Servicios</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>Nosotros</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>Contacto</a>
+
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4" style="font-family: Arial, Helvetica" , sans-serif;>Nuestra
+                        Certificaciones</h5>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>ISO 14001</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>ISO 45001</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>ISO 9001</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#!" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="background-color: #223983; border-color: #223983;"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

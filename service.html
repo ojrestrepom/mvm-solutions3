@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MVM - Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top navbar-gradient-bg">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5">
+            <a href="index.html" class="navbar-brand">
+                <!-- Si tu logo es oscuro, podrías necesitar una versión blanca -->
+                <img src="img/mvm-removebg-preview.png" alt="logo" style="width: 120px;">
+            </a>
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link">Inicio</a>
+                    <a href="service.html" class="nav-item nav-link active">Servicios</a>
+                    <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <!-- Título de la sección -->
+            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="mb-4" style="color: #223983; font-family: Arial, Helvetica, sans-serif;">Nuestros Servicios</h1>
+                <p class="mb-5" style="max-width: 900px; margin: 0 auto; font-family: Arial, Helvetica, sans-serif; text-align: justify;">
+                    Nuestro equipo de ingenieros altamente capacitados se especializa en el diseño, instalación y mantenimiento de sistemas garantizando la protección de los equipos y la continuidad de las operaciones de nuestros clientes. Mediante sistemas avanzados de monitoreo y diagnóstico, trabajamos incansablemente para salvaguardar sus activos eléctricos. Teniendo como prioridad el minimizar el riesgo de fallas y optimizar la confiabilidad de sus sistemas.
+                </p>
+            </div>
+            
+            <!-- Matriz de servicios 2x3 -->
+            <div class="row g-4 mt-5">
+                <!-- Fila 1 - Columna 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-card">
+                        <div class="service-card-inner">
+                            <div class="service-card-front">
+                                <div class="service-image">
+                                    <img src="img/desarrollo-ingenieria.png" alt="Modernización de equipos" class="img-fluid">
+                                </div>
+                                <h3>Modernización de equipos</h3>
+                                <p class="mb-0">Nuestro servicio de modernización ofrece soluciones innovadoras y sostenibles para satisfacer las necesidades energéticas utilizando las mejores herramientas.</p>
+                            </div>
+                            <div class="service-card-back">
+                                <h4>Modernización de equipos</h4>
+                                <p>Actualizamos tus equipos con la última tecnología para optimizar su rendimiento y eficiencia energética.</p>
+                                <a href="#!" class="btn-service">Ver más <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fila 1 - Columna 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-card">
+                        <div class="service-card-inner">
+                            <div class="service-card-front">
+                                <div class="service-image">
+                                    <img src="img/desarrollo-ingenieria.png" alt="Desarrollo de Ingeniería" class="img-fluid">
+                                </div>
+                                <h3>Desarrollo de Ingeniería</h3>
+                                <p class="mb-0">Nos especializamos en la instalación, y mantenimiento de distribuciones eléctricas en sistemas de energía proporcionando una fuente estable y confiable para nuestros clientes.</p>
+                            </div>
+                            <div class="service-card-back">
+                                <h4>Desarrollo de Ingeniería</h4>
+                                <p>Diseñamos y desarrollamos soluciones de ingeniería personalizadas para tus necesidades específicas.</p>
+                                <a href="#!" class="btn-service">Ver más <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fila 1 - Columna 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-card">
+                        <div class="service-card-inner">
+                            <div class="service-card-front">
+                                <div class="service-image">
+                                    <img src="img/desarrollo-ingenieria.png" alt="Servicio de diagnóstico" class="img-fluid">
+                                </div>
+                                <h3>Servicio de diagnóstico</h3>
+                                <p class="mb-0">Somos especialistas en pruebas de condicionamientos y puesta en marcha de equipos de control para mejoramiento de arquitecturas.</p>
+                            </div>
+                            <div class="service-card-back">
+                                <h4>Servicio de diagnóstico</h4>
+                                <p>Realizamos diagnósticos precisos y detallados para identificar oportunidades de mejora en tus sistemas.</p>
+                                <a href="#!" class="btn-service">Ver más <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fila 2 - Columna 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-card">
+                        <div class="service-card-inner">
+                            <div class="service-card-front">
+                                <div class="service-image">
+                                    <img src="img/desarrollo-ingenieria.png" alt="Capacitaciones y entrenamientos" class="img-fluid">
+                                </div>
+                                <h3>Capacitaciones y entrenamientos</h3>
+                                <p class="mb-0">Ofrecemos capacitación y entrenamientos especializados en equipos de protección IEDs ABB, pruebas de sistemas de protección y mantenimiento de equipos de monitoreo y control.</p>
+                            </div>
+                            <div class="service-card-back">
+                                <h4>Capacitaciones y entrenamientos</h4>
+                                <p>Formación especializada para tu equipo en las últimas tecnologías y mejores prácticas del sector.</p>
+                                <a href="#!" class="btn-service">Ver más <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fila 2 - Columna 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-card">
+                        <div class="service-card-inner">
+                            <div class="service-card-front">
+                                <div class="service-image">
+                                    <img src="img/desarrollo-ingenieria.png" alt="Capacitaciones y entrenamientos" class="img-fluid">
+                                </div>
+                                <h3>Capacitaciones y entrenamientos</h3>
+                                <p class="mb-0">Ofrecemos capacitación y entrenamientos especializados en equipos de protección IEDs ABB, pruebas de sistemas de protección y mantenimiento de equipos de monitoreo y control.</p>
+                            </div>
+                            <div class="service-card-back">
+                                <h4>Capacitaciones y entrenamientos</h4>
+                                <p>Formación especializada para tu equipo en las últimas tecnologías y mejores prácticas del sector.</p>
+                                <a href="#!" class="btn-service">Ver más <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Fila 2 - Columna 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-card">
+                        <div class="service-card-inner">
+                            <div class="service-card-front">
+                                <div class="service-image">
+                                    <img src="img/desarrollo-ingenieria.png" alt="Capacitaciones y entrenamientos" class="img-fluid">
+                                </div>
+                                <h3>Capacitaciones y entrenamientos</h3>
+                                <p class="mb-0">Ofrecemos capacitación y entrenamientos especializados en equipos de protección IEDs ABB, pruebas de sistemas de protección y mantenimiento de equipos de monitoreo y control.</p>
+                            </div>
+                            <div class="service-card-back">
+                                <h4>Capacitaciones y entrenamientos</h4>
+                                <p>Formación especializada para tu equipo en las últimas tecnologías y mejores prácticas del sector.</p>
+                                <a href="#!" class="btn-service">Ver más <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid  text-white-50 footer" style="background-color: #223983;">
+        <div class="container py-4">
+            <div class="row g-5">
+
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4" style="font-family: Arial, Helvetica , sans-serif;">Contacto</h5>
+                    <p><i class="fa-solid fa-location-dot me-3"></i>Cerro El Plomo 5931 Of. 1402, Las Condes, Región Metropolitana, Chile.</p>
+                    <p><i class="fa-solid fa-phone me-3"></i>(+56) 984 18 31 74</p>
+                    <p><i class="fa-solid fa-envelope me-3"></i>ventas@mvmsolutions.cl</p>
+
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="1s">
+                    <h5 class="text-white mb-4" style="font-family: Arial, Helvetica" , sans-serif;>Enlaces populares
+                    </h5>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>Servicios</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>Nosotros</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>Contacto</a>
+
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4" style="font-family: Arial, Helvetica" , sans-serif;>Nuestra
+                        Certificaciones</h5>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>ISO 14001</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>ISO 45001</a>
+                    <a class="btn btn-link" href="#!" style="font-family: Arial, Helvetica" , sans-serif;>ISO 9001</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#!" class="btn btn-lg btn-primary btn-lg-square back-to-top" style="background-color: #223983; border-color: #223983;"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
